@@ -1,5 +1,28 @@
 body{
     box-sizing: border-box;
+    background: gray;
+    
+}
+.container{
+    background: #cdcbcb;
+    padding: 5%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(6,1fr);
+    
+
+    
 }
 
-.
+.box{
+    background:coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+}
