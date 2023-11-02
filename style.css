@@ -52,43 +52,19 @@ body{
 
 .style{
     
-    background-color: rgb(68, 12, 12);
+    background-color: coral;
     background-blend-mode:multiply;
     background-size: cover;
     background-position: top right;
     font: bold 2.5em black;
-    opacity: 0.4;
+    opacity: 0.5;
     transition: all ease-in-out 400ms;
     &:hover{
         opacity: 0.9;
     }
-
+}
     
     
     
 
-}
-.container>:nth-child(1){
-    background: url(//unsplash.it/200/200) ;
-    
-}
-.container>:nth-child(2){
-    background: url(//unsplash.it/400/400) ;
-    
-}
-.container>:nth-child(3){
-    background: url(//unsplash.it/300/300) ;
-    
-}
-.container>:nth-child(4){
-    background: url(//unsplash.it/100/100) ;
-    
-}
-.container>:nth-child(5){
-    background: url(//unsplash.it/500/300) ;
-}
-.container>:nth-child(6){
-    background: url(//unsplash.it/400/500) ;
-  
-}
 
